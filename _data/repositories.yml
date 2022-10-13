@@ -1,12 +1,9 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - zhongguojie1998
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - ShenLab/rescve
+  - ShenLab/VBASS
+  - ShenLab/x-TADA
+  - ShenLab/pathways
+  - zhongguojie1998/CSOmap
