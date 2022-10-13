@@ -24,6 +24,6 @@ I am currently a PhD student in Dr. Yufeng Shen’s lab at Department of Systems
 2.      Developing machine learning tools to predict variant functional effects using representations of protein sequence, structure, and functions.
 3.      Cross-disease genetics of several developmental disorders including autism, congenital heart disease, congenital diaphragmatic hernia, etc.
 
-Prior to Columbia, I got my B.S. in Integrated Science studies at Peking University with training mostly in biology, statistics and computer science. I joined Dr. Zemin Zhang’s Lab for my undergraduate thesis on developing computational methods to infer cellular spatial organization and cellular interaction from single cell genomics data.
+Prior to Columbia, I got my B.S. in <a href='http://cqb.pku.edu.cn/cqben/'>Integrated Science Program</a> at Peking University with training mostly in biology, statistics and computer science. I joined Dr. Zemin Zhang’s Lab for my undergraduate thesis on developing computational methods to infer cellular spatial organization and cellular interaction from single cell genomics data.
 
 I enjoyed playing fingerstyle guitar and badminton in my free time, which both require a balance of power and  control.
