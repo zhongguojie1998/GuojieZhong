@@ -9,17 +9,21 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Columbia University Department of Systems Biology</p>
+    <p>Irving Cancer Research Center</p>
+    <p>1130 St. Nicholas Avenue</p>
+    <p>New York, NY 10032</p>
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false  # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am currently a PhD student in Dr. Yufeng Shen’s lab at Department of Systems Biology, Columbia University. My current research interests involve different topics regarding to human genetics of developmental disorders, including:
+1.      Developing statistical learning methods that leverage large-scale exome sequencing and single cell sequencing data to understand human disease genetics.
+2.      Developing machine learning tools to predict variant functional effects using representations of protein sequence, structure, and functions.
+3.      Cross-disease genetics of several developmental disorders including autism, congenital heart disease, congenital diaphragmatic hernia, etc.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Prior to Columbia, I got my B.S. in Integrated Science studies at Peking University with training mostly in biology, statistics and computer science. I joined Dr. Zemin Zhang’s Lab for my undergraduate thesis on developing computational methods to infer cellular spatial organization and cellular interaction from single cell genomics data.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I enjoyed playing fingerstyle guitar and badminton in my free time, which both require a balance of power and  control.
