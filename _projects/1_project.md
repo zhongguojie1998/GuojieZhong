@@ -1,80 +1,16 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: CSOmap
+description: My first project in computational Biology
+img: assets/img/csomap.jpg
 importance: 1
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+This is my undergraduate work at <a href="http://cancer-pku.cn">Dr. Zemin Zhang</a>'s Lab at Peking Unviversity.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+It starts with an interesting question: Can we infer the spatial information from scRNA-seq that is usually lost during tissue dissociation? We made a simple but reasonable assumption that spatially-close cells should have high ligand-receptor interactions. Based on that we developed CSOmap, a computational tool to infer cellular interaction de novo from scRNA-seq. We show that CSOmap can successfully recapitulate the spatial organization of multiple organs of human and mouse including tumor microenvironments for multiple cancers in pseudo-space, and reveal molecular determinants of cellular interactions. Further, CSOmap readily simulates perturbation of genes or cell types to gain novel biological insights, especially into how immune cells interact in the tumor microenvironment. CSOmap can be a widely applicable tool to interrogate cellular organizations based on scRNA-seq data for various tissues in diverse systems. 
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+It is a cool project, I really appreciate the mentorship from <a href="http://zhangroup.aporc.org/XianwenRen">Dr. Xianwen Ren</a> and <a href="http://cancer-pku.cn/index.php/people/zemin-zhang/">Dr. Zemin Zhang</a>. It is my first real experience in scientific research that I will never forget.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+For details, please check our <a href="https://www.nature.com/articles/s41422-020-0353-2">manuscript</a> and <a href="https://github.com/zhongguojie1998/CSOmap">GitHub repository</a>.
