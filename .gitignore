@@ -9,4 +9,5 @@ _site
 Gemfile.lock
 vendor
 _pages/archive/
+_projects/archive/
 archive/
