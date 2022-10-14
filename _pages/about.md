@@ -29,4 +29,4 @@ I am always facinated by the application of novel machine learning algorithms to
 
 Prior to Columbia, I got my B.S. in <a href='http://cqb.pku.edu.cn/cqben/'>Integrated Science Program</a> at Peking University with training mostly in biology, statistics and computer science. I joined <a href='http://cancer-pku.cn'>Dr. Zemin Zhang’s Lab</a> for my undergraduate thesis on developing computational methods to infer cellular spatial organization and cellular interaction from single cell genomics data.
 
-I enjoyed playing fingerstyle guitar and badminton in my free time, which both require a balance of power and  control.
+I enjoy playing fingerstyle guitar and badminton in my free time, which both require a balance of power and  control.
