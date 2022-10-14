@@ -93,12 +93,13 @@ blockquote {
 // Profile
 
 .profile {
-  width: 120%;
+  width: 100%;
 
   .address {
     margin-bottom: 5px;
     margin-top: 5px;
     font-family: monospace;
+    font-size: 0.875rem;
     p {
       display: inline-block;
       margin: 0;
