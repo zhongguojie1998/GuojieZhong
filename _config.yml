@@ -50,7 +50,7 @@ navbar_fixed: true
 footer_fixed: true
 
 # Dimensions
-max_width: 800px
+max_width: 1000px
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -93,7 +93,7 @@ facebook_id: # your facebook id
 discord_id: # your discord id (18-digit unique numerical identifier)
 
 contact_note: >
-  Please email me to contact! I will reply as soon as I can!
+  Please email me if you want to contact! I will reply as soon as I can!
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
