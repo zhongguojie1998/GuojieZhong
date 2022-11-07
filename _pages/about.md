@@ -10,8 +10,7 @@ profile:
   image_circular: true # crops the image to make it circular
   address: >
     <p>Columbia University</p>
-    <p>Department of Systems Biology</p>
-    <p>Irving Cancer Research Center</p>
+    <p>Dept. of Systems Biology</p>
     <p>1130 St. Nicholas Avenue</p>
     <p>New York, NY 10032</p>
 
