@@ -23,3 +23,5 @@ Rare or de novo variants have substantial contribution to human diseases, but th
     Demonstration of the model. Left is the graphic model. Right is a example demonstration of information flow.
 </div>
 
+For details, please check our <a href="https://www.biorxiv.org/content/10.1101/2022.05.13.491893v2">manuscript</a> and <a href="https://github.com/ShenLab/VBASS">GitHub repository</a>
+
