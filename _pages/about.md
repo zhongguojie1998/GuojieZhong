@@ -20,11 +20,11 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 I am currently a PhD student in <a href='http://www.columbia.edu/~ys2411/'>Dr. Yufeng Shen’s lab</a> at Department of Systems Biology, Columbia University. My current research interests involve different topics regarding to human genetics of developmental disorders, including:
-1.      Developing statistical learning methods that leverage large-scale exome sequencing and single cell sequencing data to understand human disease genetics.
-2.      Developing machine learning tools to predict variant functional effects using representations of protein sequence, structure, and functions.
+1.      Developing machine learning tools to predict variant functional effects using representations of protein sequence, structure, and functions, see project <a href='https://zhongguojie1998.github.io/GuojieZhong/projects/3_project/'>RESCVE</a>.
+2.      Developing statistical learning methods that leverage large-scale exome sequencing and single cell sequencing data to understand human disease genetics, see project <a href='https://zhongguojie1998.github.io/GuojieZhong/projects/2_project/'>VBASS</a>.
 3.      Cross-disease genetics of several developmental disorders including autism, congenital heart disease, congenital diaphragmatic hernia, etc.
 
-I am always facinated by the application of novel machine learning algorithms to biological questions, especially in the genetics and genomics of human disease. These days I am exploring Bayesian Graphical models, Variational Autoencoders, Transformer based protein language models.
+I am always facinated by the application of novel machine learning algorithms to biological questions, especially in the genetics and genomics of human disease. These days I am exploring Transformer based Protein Language Models, Bayesian Graphical models, Variational Autoencoders.
 
 Prior to Columbia, I got my B.S. in <a href='http://cqb.pku.edu.cn/cqben/'>Integrated Science Program</a> at Peking University with training mostly in biology, statistics and computer science. I joined <a href='http://cancer-pku.cn'>Dr. Zemin Zhang’s Lab</a> for my undergraduate thesis on developing computational methods to infer cellular spatial organization and cellular interaction from single cell genomics data.
 
