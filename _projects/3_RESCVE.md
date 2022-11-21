@@ -20,3 +20,4 @@ Accurate prediction of functional impact for missense variants is fundamental fo
     Demonstration of the model. Arrows show imformation flow, colors show parameter updates during training and transfer learning.
 </div>
 
+For details, please check our <a href="https://github.com/ShenLab/rescve">GitHub repository</a>
