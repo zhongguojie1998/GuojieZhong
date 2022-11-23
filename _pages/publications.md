@@ -8,6 +8,9 @@ nav: true
 nav_order: 1
 ---
 <!-- _pages/publications.md -->
+
+<p>An up-to-date list is available on <a href="https://scholar.google.com/citations?user=BarC1U8AAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a>.</p>
+
 <div class="publications">
 
 {%- for y in page.years %}
