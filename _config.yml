@@ -103,7 +103,7 @@ google_analytics: G-43J64SYBS0 # your Goole Analytics measurement ID (format: G-
 panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 
 google_site_verification: 31KHVFcJo6S97n9hm_G4Mjwc5sge0dJuLl3oi_NdwNk # your google-site-verification ID (Google Search Console)
-bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
+bing_site_verification: 1bf76500e4daabd81f864cc8501f1b73 # out your bing-site-verification ID (Bing Webmaster)
 
 # -----------------------------------------------------------------------------
 # Blog
