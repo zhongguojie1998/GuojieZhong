@@ -176,6 +176,7 @@ keep_files:
   - .git
 
 # Plug-ins
+# - jekyll-target-blank
 plugins:
   - jekyll-archives
   - jekyll-diagrams
@@ -186,7 +187,7 @@ plugins:
   - jekyll-paginate-v2
   - jekyll/scholar
   - jekyll-sitemap
-  - jekyll-target-blank
+  - jekyll-link-attributes
   - jekyll-twitter-plugin
   - jemoji
 
