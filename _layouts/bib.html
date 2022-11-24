@@ -23,7 +23,7 @@
         </div>
 
         <!-- Entry bib key -->
-        <div id="{{entry.key}}" class="col-sm-8 col-md-9">
+        <div id="{{entry.key}}" class="col-sm-8">
         {% if entry.type == "thesis" -%}
           {{reference}}
         {%- else %}
@@ -108,8 +108,7 @@
           <!-- Journal/Book title and date -->
           {% assign proceedings = "inproceedings, incollection" | split: ','%}
           {% if entry.type == "article" -%}
-            // {%- capture entrytype -%}<em>{{entry.journal}}</em>{%- endcapture -%}
-	    {%- capture entrytype -%}{{entry.journal}}{%- endcapture -%}
+            {%- capture entrytype -%}<em>{{entry.journal}}</em>{%- endcapture -%}
           {%- elsif proceedings contains entry.type -%}
             {%- capture entrytype -%}<em>In {{entry.booktitle}}</em> {%- endcapture -%}
           {%- else -%}
@@ -117,18 +116,12 @@
           {%- endif -%}
           {%- if entry.month -%}
             {%- capture entrymonth -%}{{ " " }}{{ entry.month | capitalize }}{%- endcapture -%}
-          {%- else -%}
-             {%- capture entrymonth -%}{%- endcapture -%}
-	  {%- endif -%}
+          {%- endif -%}
           {%- if entry.year -%}
             {%- capture entryyear -%}{{ " " }}{{entry.year}}{%- endcapture -%}
           {%- endif -%}
-          {%- if entrytype contains entry.year -%}
-             {%- capture periodical -%}{{ entrytype }}{%- endcapture -%}
-           {%- else -%}
-             {%- capture periodical -%}{{ entrytype }}, {{ entrymonth }}{{ entryyear }}{%- endcapture -%}
-           {%- endif -%}
-	  <div class="periodical">
+          {%- capture periodical -%}{{ entrytype }}{{ entrymonth }}{{ entryyear }}{%- endcapture -%}
+          <div class="periodical">
             {{ periodical | strip }}
           </div>
         {%- endif %}
@@ -184,7 +177,7 @@
           {%- if entry.website %}
             <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
           {%- endif %}
-	  {%- if entry.altmetric %}
+          {%- if entry.altmetric %}
             <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-altmetric-id="{{ entry.altmetric }}" class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-popover="right" data-badge-type="2" style="display:inline"></div>
           {%- endif %}
           </div>
