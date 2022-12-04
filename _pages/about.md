@@ -19,7 +19,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am currently a PhD student in <a href='http://www.columbia.edu/~ys2411/'>Dr. Yufeng Shen’s lab</a> at Department of Systems Biology, Columbia University. My research interests involve different topics regarding to human genetics. My recent research is about developing deep learning tools to predict variant functional effects using representations of protein sequences, structures, and functions, see project <a href='https://zhongguojie1998.github.io/GuojieZhong/projects/3_RESCVE/'>RESCVE</a>.
+I am currently a PhD student in <a href='http://www.columbia.edu/~ys2411/'>Dr. Yufeng Shen’s lab</a> at Department of Systems Biology, Columbia University. My research interests involve different topics regarding to human genetics. My current research is about developing deep learning tools to predict functional effects of mutations using representations of protein sequences, structures, and functions, see project <a href='https://zhongguojie1998.github.io/GuojieZhong/projects/3_RESCVE/'>RESCVE</a>.
 
 My previous PhD research experiences including:
 1.      Developing statistical learning methods that leverage large-scale exome sequencing and single cell sequencing data to understand human disease genetics, see project <a href='https://zhongguojie1998.github.io/GuojieZhong/projects/2_VBASS/'>VBASS</a>.
