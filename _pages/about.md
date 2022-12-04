@@ -19,10 +19,11 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am currently a PhD student in <a href='http://www.columbia.edu/~ys2411/'>Dr. Yufeng Shen’s lab</a> at Department of Systems Biology, Columbia University. My current research interests involve different topics regarding to human genetics of developmental disorders, including:
-1.      Developing deep learning tools to predict variant functional effects using representations of protein sequence, structure, and functions, see project <a href='https://zhongguojie1998.github.io/GuojieZhong/projects/3_RESCVE/'>RESCVE</a>.
-2.      Developing statistical learning methods that leverage large-scale exome sequencing and single cell sequencing data to understand human disease genetics, see project <a href='https://zhongguojie1998.github.io/GuojieZhong/projects/2_VBASS/'>VBASS</a>.
-3.      Cross-disease genetics of several developmental disorders including autism, congenital heart disease, congenital diaphragmatic hernia, etc.
+I am currently a PhD student in <a href='http://www.columbia.edu/~ys2411/'>Dr. Yufeng Shen’s lab</a> at Department of Systems Biology, Columbia University. My research interests involve different topics regarding to human genetics. My recent research is about developing deep learning tools to predict variant functional effects using representations of protein sequences, structures, and functions, see project <a href='https://zhongguojie1998.github.io/GuojieZhong/projects/3_RESCVE/'>RESCVE</a>.
+
+My previous PhD research experiences including:
+1.      Developing statistical learning methods that leverage large-scale exome sequencing and single cell sequencing data to understand human disease genetics, see project <a href='https://zhongguojie1998.github.io/GuojieZhong/projects/2_VBASS/'>VBASS</a>.
+2.      Cross-disease genetics of several developmental disorders including autism, congenital heart disease, congenital diaphragmatic hernia, etc.
 
 I am always facinated by the application of novel machine learning algorithms to biological questions, especially in the genetics and genomics of human disease. These days I am exploring Transformer based Protein Language Models, Bayesian Graphical models, Variational Autoencoders.
 
