@@ -4,7 +4,7 @@ title: RESCVE
 description: A deep learning model to represent the modes of action of missense variants. 
 img: assets/img/RESCVE.jpg
 importance: 2
-category: work
+category: Research
 ---
 
 This is my second PhD project in <a href="http://www.columbia.edu/~ys2411/">Dr. Yufeng Shen's lab</a>. 
