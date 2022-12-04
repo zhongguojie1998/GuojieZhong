@@ -2,7 +2,7 @@
 layout: page
 title: Wings~Hoping for the Future
 description: Video for my 22nd birthday!
-img: assets/img/csomap.jpg
+img: assets/img/Wings.png
 importance: 1
 category: Fingerstyle Guitar Performance
 ---
