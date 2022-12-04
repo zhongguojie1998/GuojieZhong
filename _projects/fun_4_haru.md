@@ -1,6 +1,6 @@
 ---
 layout: page
-title: One of Us
+title: Haru (Spring)
 description: In memory of the 2022 spring in NYC
 img: assets/img/Haru.png
 importance: 1
