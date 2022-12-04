@@ -2,7 +2,7 @@
 layout: page
 title: Canon
 description: In memory of my graduation at Peking University
-img: assets/img/csomap.jpg
+img: assets/img/Canon.png
 importance: 1
 category: Fingerstyle Guitar Performance
 ---
