@@ -4,7 +4,7 @@ title: CSOmap
 description: My first project in computational Biology
 img: assets/img/csomap.jpg
 importance: 1
-category: work
+category: Research
 ---
 
 This is my undergraduate work at <a href="http://cancer-pku.cn">Dr. Zemin Zhang's Lab</a> at Peking Unviversity.
