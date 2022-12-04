@@ -2,7 +2,7 @@
 layout: page
 title: One of Us
 description: My first finguerstyle guitar video
-img: assets/img/csomap.jpg
+img: assets/img/One_of_Us.png
 importance: 1
 category: Fingerstyle Guitar Performance
 ---
