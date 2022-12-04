@@ -27,6 +27,6 @@ My previous PhD research experiences including:
 
 I am always facinated by the application of novel machine learning algorithms to biological questions, especially in the genetics and genomics of human disease. These days I am exploring Transformer based Protein Language Models, Bayesian Graphical models, Variational Autoencoders.
 
-Prior to Columbia, I got my B.S. in <a href='http://cqb.pku.edu.cn/cqben/'>Integrated Science Program</a> at Peking University with training mostly in biology, statistics and computer science. I joined <a href='http://cancer-pku.cn'>Dr. Zemin Zhang’s Lab</a> for my undergraduate thesis on developing computational methods to infer cellular spatial organization and cellular interaction from single cell genomics data.
+Prior to Columbia, I got my B.S. in <a href='http://cqb.pku.edu.cn/cqben/'>Integrated Science Program</a> at Peking University with training mostly in biology, statistics and computer science. I joined <a href='http://cancer-pku.cn'>Dr. Zemin Zhang’s Lab</a> for my undergraduate thesis on developing computational methods to infer cellular spatial organization and cellular interaction from single cell genomics data, see project <a href='https://zhongguojie1998.github.io/GuojieZhong/projects/1_CSOmap/'>CSOmap</a>.
 
 I enjoy playing fingerstyle guitar and badminton in my free time, which both require a balance of power and  control.
