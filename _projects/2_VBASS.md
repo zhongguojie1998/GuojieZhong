@@ -4,7 +4,7 @@ title: VBASS
 description: A Bayesian Mixture model with learnable prior to integrate single cell gene expression data in rare variants association analysis. 
 img: assets/img/VBASS.jpg
 importance: 2
-category: work
+category: Research
 ---
 
 This is my first PhD project in <a href="http://www.columbia.edu/~ys2411/">Dr. Yufeng Shen's lab</a>. 
