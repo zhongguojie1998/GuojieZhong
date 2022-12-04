@@ -4,7 +4,7 @@ title: One of Us
 description: My first finguerstyle guitar video
 img: assets/img/csomap.jpg
 importance: 1
-category: fun
+category: Fingerstyle Guitar Performance
 ---
 
 This is my first finguerstyle guitar video. Made in my senior year at Yuanpei College, Peking University. At that time I have been playing fingerstyle guitar for 3 years and I think maybe I need to make some videos to track my progress. I found this amazing music room in the basement of our student dormitory perfect for recording. This song is called One of Us. I was facinated by Sungha Jung's cover the first time I heard it and made it to be my first recording. Hope you enjoy it! 
