@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: home
 permalink: /
 subtitle: <a href='http://www.columbia.edu/~ys2411/people/Guojie-Zhong/'>PhD Candidate</a>, <a href='https://systemsbiology.columbia.edu'>Department of Systems Biology</a>, Columbia University. 
 
