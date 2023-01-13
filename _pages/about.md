@@ -19,7 +19,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am currently a PhD student in <a href='http://www.columbia.edu/~ys2411/'>Dr. Yufeng Shen’s lab</a> at Department of Systems Biology, Columbia University. My research interests involve different topics regarding to human genetics. 
+I am currently a PhD student in <a href='http://www.columbia.edu/~ys2411/'>Dr. Yufeng Shen’s lab</a> at Department of Systems Biology, Columbia University. My main research interests are in computational genomics and human genetics.
 
 My current research is about developing deep learning tools to predict modes of action of missense variants with three aims:
 1.      Building efficient models for modes of action prediction from the representations of protein sequences, structures, and functions by protein language models, see project <a href='https://zhongguojie1998.github.io/GuojieZhong/projects/3_RESCVE/'>RESCVE</a>.
