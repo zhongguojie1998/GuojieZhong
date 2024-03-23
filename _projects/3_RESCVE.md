@@ -7,8 +7,6 @@ importance: 2
 category: Research
 ---
 
-This is my second PhD project in <a href="http://www.columbia.edu/~ys2411/">Dr. Yufeng Shen's lab</a>. 
-
 Accurate prediction of functional impact for missense variants is fundamental for genetic analysis and clinical applications. Current methods focused on generating an overall pathogenicity prediction score while overlooking the fact that variant effect should be multi-dimensional via different modes of action, such as gain or loss of function, and loss of folding stability or enzymatic activity. Recent breakthrough of high-capacity language models enabled ab initio prediction of protein structures as well as self-supervised representation learning of protein sequence and functions. Here we present RESCVE, a method to learn universal representation of sequence variation from protein context. We demonstrated the utility of the method predicting a range of modes of action for missense variants through transfer learning.
 
 <div class="row">

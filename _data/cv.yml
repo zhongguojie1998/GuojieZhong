@@ -58,8 +58,11 @@
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/ShenLab/rescve">RESCVE</a>
+    - title: <a href="https://github.com/ShenLab/PreMode">PreMode</a>
       year: 2022-now
+      description: PreMode predicts mode-of-action of missense variants by deep graph representation learning of protein sequence and structural context
+    - title: <a href="https://github.com/ShenLab/rescve">RESCVE</a>
+      year: 2022-2022
       description: A deep learning model to represent the modes of action of missense variants.
     - title: <a href="https://github.com/ShenLab/VBASS">VBASS</a>
       year: 2020-2021
