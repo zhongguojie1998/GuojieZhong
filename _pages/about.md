@@ -22,7 +22,7 @@ social: true  # includes social icons at the bottom of the page
 I am currently a PhD student in <a href='http://www.columbia.edu/~ys2411/'>Dr. Yufeng Shen’s lab</a> at Department of Systems Biology, Columbia University. 
 
 I am interested in developing computational approaches to understand human disease mechanisms and fundamental biology. My past works expanded several areas including:
-1.      Single cell spatial transcriptomics: <a href='https://zhongguojie1998.github.io/GuojieZhong/projects/2_CSOmap/'>CSOmap</a>
+1.      Single cell spatial transcriptomics: <a href='https://zhongguojie1998.github.io/GuojieZhong/projects/1_CSOmap/'>CSOmap</a>
 2.      Statistical genetics: <a href='https://zhongguojie1998.github.io/GuojieZhong/projects/2_VBASS/'>VBASS</a>
 3.      Missense variant effect predictions: <a href='https://zhongguojie1998.github.io/GuojieZhong/projects/4_PreMode/'>PreMode</a>
 
