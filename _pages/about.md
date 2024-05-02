@@ -21,15 +21,15 @@ social: true  # includes social icons at the bottom of the page
 
 I am currently a PhD student in <a href='http://www.columbia.edu/~ys2411/'>Dr. Yufeng Shen’s lab</a> at Department of Systems Biology, Columbia University. 
 
-I am interested in developing computational approaches to understand human disease mechanisms and fundamental biology. My past works expanded several areas including:
+My research is driven by the ultimate goal to bridge the gap between complex human diseases and effective treatments. To achieve this, I develop biologically-inspired machine learning algorithms that can be applied to high-throughput genomics data to uncover disease mechanisms. My past works expanded several areas including:
 1.      Single cell spatial transcriptomics: <a href='https://zhongguojie1998.github.io/GuojieZhong/projects/1_CSOmap/'>CSOmap</a>
 2.      Statistical genetics: <a href='https://zhongguojie1998.github.io/GuojieZhong/projects/2_VBASS/'>VBASS</a>
 3.      Missense variant effect predictions: <a href='https://zhongguojie1998.github.io/GuojieZhong/projects/4_PreMode/'>PreMode</a>
 
 My future research interests include:
 1.      Disease mechanism discovery utilizing high-throughput screening techniques and deep learning.
-2.      Generative modeling of proteins, DNAs and RNAs.
+2.      Generative deep learning models of proteins, DNAs and RNAs.
 
-Prior to Columbia, I got my B.S. in <a href='http://cqb.pku.edu.cn/cqben/'>Integrated Science Program</a> at Peking University with training mostly in biology, statistics and computer science. I joined <a href='http://cancer-pku.cn'>Dr. Zemin Zhang’s Lab</a> for my undergraduate thesis on developing computational methods to infer cellular spatial organization and cellular interaction from single cell genomics data, see project <a href='https://zhongguojie1998.github.io/GuojieZhong/projects/1_CSOmap/'>CSOmap</a>.
+Prior to Columbia, I got my B.S. in <a href='http://cqb.pku.edu.cn/cqben/'>Integrated Science Program</a> at Peking University with training mostly in biology, statistics and computer science. I joined <a href='http://cancer-pku.cn'>Dr. Zemin Zhang’s Lab</a> for my undergraduate thesis on developing computational methods to infer cellular spatial organization and cellular interaction from single cell genomics data.
 
 I enjoy playing fingerstyle guitar and badminton in my free time, which both require a balance of power and  control.
