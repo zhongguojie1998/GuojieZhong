@@ -13,7 +13,7 @@
   contents:
     - title: PhD
       institution: Columbia University, New York, NY, United States
-      year: 2019-Now
+      year: 2019-2024
       description:
         - PhD in Systems Biology, Integrated Program in Cellular, Molecular, and Biomedical Studies
     - title: BS
@@ -59,7 +59,7 @@
   type: time_table
   contents:
     - title: <a href="https://github.com/ShenLab/PreMode">PreMode</a>
-      year: 2022-now
+      year: 2022-2024
       description: PreMode predicts mode-of-action of missense variants by deep graph representation learning of protein sequence and structural context
     - title: <a href="https://github.com/ShenLab/rescve">RESCVE</a>
       year: 2022-2022

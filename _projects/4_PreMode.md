@@ -20,4 +20,4 @@ Accurate prediction of the functional impact of missense variants is important f
     Mode-of-action definition and PreMode framework. A) Mode-of-action definition at molecular level and genetic levels. Variant effects could be quantified by two parameters: "distance from wildtype", r, and "direction of change", θ, all current methods focus on predicting the r, that reflects pathogenicity, but cannot predict θ, which is mode-of-action. Mode-of-action is protein/gene specific that depend on its original functions. B) PreMode framework. Blue arrows show the data flow and at pretrain stage for pathogenicity prediction, green arrows show transfer-learning stage for mode-of-action prediction.
 </div>
 
-For details, please check our <a href="https://www.biorxiv.org/content/10.1101/2024.02.20.581321v3">manuscript</a> and <a href="https://github.com/ShenLab/PreMode">GitHub repository</a>.
+For details, please check our <a href="https://www.nature.com/articles/s41467-025-62318-4">manuscript</a> and <a href="https://github.com/ShenLab/PreMode">GitHub repository</a>.
