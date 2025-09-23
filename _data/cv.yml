@@ -107,6 +107,11 @@
     - title: Genomics & Genetics.
     - title: Deep Learning, Statistical Modeling, and Bioinformatics.
 
+- title: Peer Review Service
+  type: list
+  contents:
+    - PLOS Computational Biology, Molecular Medicine, Scientific Reports.
+
 - title: Other Interests
   type: list
   contents:
