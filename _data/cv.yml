@@ -22,38 +22,31 @@
       description:
         - BS in Integrated Science, Yuanpei College
 
-# - title: Experience
-#   type: time_table
-#   contents:
-#     - title: Professor of Theoretical Physics
-#       institution: Institute for Advanced Study, Princeton University
-#       year: 1933 - 1955
-#       description:
-#         - Description 1.
-#         - Description 2.
-#         - title: Description 3.
-#           contents:
-#             - Sub-description 1.
-#             - Sub-description 2.
-#     - title: Visiting Professor
-#       institution: California Institute of Technology, Pasadena, California, US
-#       year: 1933
-#       description:
-#         - Description 1.
-#         - Description 2.
+- title: Experience
+  type: time_table
+  contents:
+    - title: Postdoctoral Research Associate
+      institution: Ren Lab, New York Genome Center, New York, NY, United States
+      year: 03/2025–present
+      description: Develop deep learning methods (DNA language models) to predicting non-coding variant effect, prioritize causal variants for diagnosis and therapeutic target discovery.
 
-#     - title: Director
-#       institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-#       year: 1917-1933
+    - title: Data Science & Machine Learning Intern
+      institution: Insitro, Inc., South San Francisco, CA, United States
+      year: 06/2024–09/2024
+      description: Evaluate and improve the in-house drug target discovery pipeline by integration of GWAS, RNA-seq and PharmaProjects data.
 
-#     - title: Professor of Theoretical Physics
-#       institution: Karl-Ferdinand University, Prague, Czechoslovakia
-#       year: 1911 - 1917
-#       description:
+    - title: Graduate Research Assistant
+      institution: Shen Lab, Department of Systems Biology, Columbia University, New York, NY, United States
+      year: 09/2020–02/2025
+      description: 
+        - Develop deep learning method to predict coding variant effect using representations of protein sequence, structure and functions.
+        - Develop statistical genetics methods to identify disease risk genes for developmental disorders
 
-#     - title: Associate Professor of Theoretical Physics
-#       institution: University of Zurich, Zurich, Switzerland
-#       year: 1909 - 1911
+    - title: Research Assistant
+      institution: Zhang Lab, Biomedical Pioneering Innovation Center (BIOPIC), Peking University, Beijing, China
+      year: 03/2017–07/2019
+      description:
+        - Develop computational methods to reconstruct cell spatial organization from single-cell RNA sequencing data based on ligand-receptor mediated self-assembly.
 
 - title: Open Source Projects
   type: time_table
@@ -74,6 +67,9 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2024
+      items: 
+        - Chinese Government Award for Outstanding Self-Financed Students Abroad
     - year: 2019
       items: 
         - Dean’s fellowship, Graduate School of Arts and Science, Columbia University
@@ -84,11 +80,32 @@
       items: 
         - The 28th National Olympiad in Chemistry in Provinces, 1st prize, Zhejiang Province, China
 
+- title: Mentorship
+  type: time_table
+  contents:
+    - title: Di Liu, summer rotation PhD student
+      institution: Ren Lab, New York Genome Center, New York, NY, United States
+      year: 05/2025–08/2025
+      description:
+        - Assisted in the project of developing deep learning models to predict the pathogenicity of genetic variants.
+      items: 
+        - Chinese Government Award for Outstanding Self-Financed Students Abroad
+    - title: Demi Zhuang, summer visiting undergraduate student
+      institution: Shen Lab, Columbia University, New York, NY, United States
+      year: 06/2023–08/2023
+      description:
+        - Developed protein family specific benchmarking tasks and datasets for PreMode. Applied PreMode to those datasets and discovered several novel likely G/LoF variants.
+    - title: Andrew Lee, summer visiting high school student
+      institution: Shen Lab, Columbia University, New York, NY, United States
+      year: 06/2021–08/2021 
+      description:
+        - Developed an R app to visualize the scRNA-seq data of autism risk genes in brain cell types from public datasets. Applied it to discovery of novel autism risk genes and identification of disease associated cell types.
+
 - title: Academic Interests
   type: nested_list
   contents:
     - title: Genomics & Genetics.
-    - title: Deep Learning.
+    - title: Deep Learning, Statistical Modeling, and Bioinformatics.
 
 - title: Other Interests
   type: list
