@@ -21,14 +21,14 @@ social: true  # includes social icons at the bottom of the page
 
 I am currently a Postdoctoral Research Associate in <a href='https://renlab.sdsc.edu/renlab_website/'>Dr. Bing Ren's lab</a> at the <a href='https://www.nygenome.org'>New York Genome Center</a>. 
 
-Previously, I had the honor of completing my PhD under the guidance of <a href='http://www.columbia.edu/~ys2411/'>Dr. Yufeng Shen</a> at the <a href='https://systemsbiology.columbia.edu'>Department of Systems Biology</a>, Columbia University. 
-
-My research is driven by the ultimate goal to bridge the gap between complex human diseases and effective treatments. To achieve this, I develop biologically-inspired machine learning algorithms that can be applied to high-throughput genomics data to uncover disease mechanisms and identify potential therapeutic targets. 
+I build biologically-inspired machine learning models to bridge the gap between complex diseases and effective treatments, deciphering disease mechanisms from high-throughput genomics data to identify new therapeutic targets. 
 
 My current research interests include:
 1.      Building DNA sequence-to-function foundation models that predict cell-type-specific transcriptional regulatory grammar in the human brain.
 2.      Neuropsychological disease mechanism discovery utilizing a combination of high-throughput screening techniques and deep learning.
 3.      Generative deep learning models for synthetic regulatory element design.
+
+Previously, I had the honor of completing my PhD under the guidance of <a href='http://www.columbia.edu/~ys2411/'>Dr. Yufeng Shen</a> at the <a href='https://systemsbiology.columbia.edu'>Department of Systems Biology</a>, Columbia University.
 
 My past work has spanned several areas including:
 1.      Single-cell spatial transcriptomics and cancer immunology: <a href='https://zhongguojie1998.github.io/GuojieZhong/projects/1_CSOmap/'>CSOmap</a>, <a href='https://www.cell.com/cell/fulltext/S0092-8674(19)31119-5'>Hepatocellular Carcinoma</a>
