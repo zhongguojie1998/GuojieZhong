@@ -570,10 +570,18 @@ footer.sticky-bottom {
       }
       .badges {
         margin-top: 0.5rem;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        flex-wrap: wrap;
         a {
           img {
             vertical-align: middle;
           }
+        }
+        .altmetric-embed {
+          display: inline-block;
+          max-width: 50px;
         }
       }
       .hidden {
