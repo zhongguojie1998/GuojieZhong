@@ -569,41 +569,16 @@ footer.sticky-bottom {
         }
       }
       .badges {
-        margin-top: 0.5rem;
-        display: flex;
-        align-items: center;
-        gap: 0.75rem;
-        flex-wrap: wrap;
-        min-height: 30px;
-        a {
-          display: inline-block;
-          margin-right: 0.5rem;
-          flex-shrink: 0;
-          img {
-            vertical-align: middle;
-            display: inline-block;
-          }
-        }
-        .altmetric-embed {
-          display: inline-block !important;
-          max-width: 50px;
-          max-height: 50px;
-          margin-right: 0.5rem;
-          flex-shrink: 0;
-          position: relative !important;
-        }
-        .__dimensions_badge_embed__ {
-          display: inline-block !important;
-          margin-right: 0.5rem;
-          flex-shrink: 0;
-          position: relative !important;
-        }
+        padding-bottom: 0.5rem;
         span {
           display: inline-block;
-          flex-shrink: 0;
+          height: 100%;
+          padding-right: 0.5rem;
+          vertical-align: middle;
         }
-        > * {
-          margin-bottom: 0 !important;
+        a {
+          vertical-align: middle;
+          padding-right: 0.5rem;
         }
       }
       .hidden {
