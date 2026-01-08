@@ -5,3 +5,59 @@ papers:
     citations: 1448
     title: Landscape and dynamics of single immune cells in hepatocellular carcinoma
     year: '2019'
+  BarC1U8AAAAJ:d1gkVwhDpl0C:
+    citations: 153
+    title: Reconstruction of cell spatial organization from single-cell RNA sequencing data based on ligand-receptor mediated self-assembly
+    year: '2020'
+  BarC1U8AAAAJ:IjCSPb-OGe4C:
+    citations: 140
+    title: mRNA delivery of a bispecific single‐domain antibody to polarize tumor‐associated macrophages and synergize immunotherapy against liver malignancies
+    year: '2021'
+  BarC1U8AAAAJ:9yKSN-GCB0IC:
+    citations: 17
+    title: Identification and validation of candidate risk genes in endocytic vesicular trafficking associated with esophageal atresia and tracheoesophageal fistulas
+    year: '2022'
+  BarC1U8AAAAJ:Y0pCki6q_DkC:
+    citations: 6
+    title: PreMode predicts mode-of-action of missense variants by deep graph representation learning of protein sequence and structural context
+    year: '2025'
+  BarC1U8AAAAJ:zYLM7Y9cAGgC:
+    citations: 6
+    title: Smoother a unified and modular framework for incorporating structural dependency in spatial omics data
+    year: '2023'
+  BarC1U8AAAAJ:W7OEmFMy1HYC:
+    citations: 5
+    title: A probabilistic graphical model for estimating selection coefficients of nonsynonymous variants from human population sequence data
+    year: '2025'
+  BarC1U8AAAAJ:Se3iqnhoufwC:
+    citations: 4
+    title: AlphaCluster Coevolutionary driven residue-residue interaction models enable quantifiable clustering analysis of de novo variants to enhance predictions of pathogenicity
+    year: '2022'
+  BarC1U8AAAAJ:Tyk-4Ss8FVUC:
+    citations: 3
+    title: VBASS enables integration of single cell gene expression data in Bayesian association analysis of rare variants
+    year: '2023'
+  BarC1U8AAAAJ:eQOLeE2rZwMC:
+    citations: 3
+    title: Statistical models of the genetic etiology of congenital heart disease
+    year: '2022'
+  BarC1U8AAAAJ:KlAtU1dfN6UC:
+    citations: 2
+    title: Representation of missense variants for predicting modes of action
+    year: '2022'
+  BarC1U8AAAAJ:roLk4NBRz8UC:
+    citations: 0
+    title: Computational approaches to understand mechanisms of human genetic disorders
+    year: '2024'
+  BarC1U8AAAAJ:LkGwnXOMwfcC:
+    citations: 0
+    title: Method for predicting cell spatial relation based on single-cell transcriptome sequencing data
+    year: '2023'
+  BarC1U8AAAAJ:8k81kl-MbHgC:
+    citations: 0
+    title: Discovering the Developmental Basis of Trachea‐Esophageal Birth Defects Evidence for Endosome‐opathies
+    year: '2022'
+  BarC1U8AAAAJ:UeHWp8X0CEIC:
+    citations: 0
+    title: Towards better understanding of developmental disorders from integration of spatial single-cell transcriptomics and epigenomics
+    year: '2021'
