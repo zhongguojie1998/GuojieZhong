@@ -10,6 +10,11 @@
   <script defer src="{{ '/assets/js/zoom.js' | relative_url }}"></script>
 {%- endif -%}
 
+{% if page.toc and page.toc.sidebar %}
+  <!-- Sidebar Table of Contents -->
+  <script defer src="{{ '/assets/js/bootstrap-toc.min.js' | relative_url }}"></script>
+{% endif %}
+
 <!-- Altmetric Badge Script -->
 <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
 
