@@ -182,6 +182,30 @@
           {%- endif %}
           </div>
 
+          <!-- Google Scholar Badge -->
+          {%- if site.enable_google_scholar_badge and entry.google_scholar_id -%}
+          <div class="badges">
+            {%- assign scholar_id_key = site.scholar_userid | append: ':' | append: entry.google_scholar_id -%}
+            {%- assign publication_key = entry.google_scholar_id -%}
+            {%- assign citation_count = 0 -%}
+
+            {%- if site.data.citations.papers[scholar_id_key] -%}
+              {%- assign citation_count = site.data.citations.papers[scholar_id_key].citations -%}
+            {%- elsif site.data.citations.papers[publication_key] -%}
+              {%- assign citation_count = site.data.citations.papers[publication_key].citations -%}
+            {%- endif -%}
+
+            <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user={{ site.scholar_userid }}&citation_for_view={{ site.scholar_userid }}:{{ entry.google_scholar_id }}"
+               aria-label="Google Scholar link"
+               role="button"
+               target="_blank"
+               rel="noopener noreferrer">
+              <img src="https://img.shields.io/badge/scholar-{{ citation_count }}-4285F4?logo=googlescholar&labelColor=beige"
+                   alt="{{ citation_count }} Google Scholar citations">
+            </a>
+          </div>
+          {%- endif -%}
+
           {% if entry.abstract -%}
           <!-- Hidden abstract block -->
           <div class="abstract hidden">

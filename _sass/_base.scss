@@ -568,6 +568,14 @@ footer.sticky-bottom {
           }
         }
       }
+      .badges {
+        margin-top: 0.5rem;
+        a {
+          img {
+            vertical-align: middle;
+          }
+        }
+      }
       .hidden {
         font-size: 0.875rem;
         max-height: 0px;
