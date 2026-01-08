@@ -187,28 +187,29 @@
                     data-badge-type="donut"
                     data-badge-popover="right"
                     {%- if entry.altmetric != true and entry.altmetric != 'true' %}
-                      data-altmetric-id="{{ entry.altmetric }}"
+                    data-altmetric-id="{{ entry.altmetric }}"
                     {%- elsif entry.doi %}
-                      data-doi="{{ entry.doi }}"
+                    data-doi="{{ entry.doi }}"
                     {%- elsif entry.arxiv %}
-                      data-arxiv-id="{{ entry.arxiv }}"
+                    data-arxiv-id="{{ entry.arxiv }}"
                     {%- elsif entry.pmid %}
-                      data-pmid="{{ entry.pmid }}"
+                    data-pmid="{{ entry.pmid }}"
                     {%- endif -%}
               ></span>
             {%- endif -%}
 
             {%- if entry.dimensions -%}
               <span class="__dimensions_badge_embed__"
-                    {%- if entry.dimensions != true and entry.dimensions != 'true' %}
-                      data-id="{{ entry.dimensions }}"
+                    {%- if entry.dimensions != blank and entry.dimensions != 'true' %}
+                    data-id="{{ entry.dimensions }}"
                     {%- elsif entry.doi %}
-                      data-doi="{{ entry.doi }}"
-                    {%- elsif entry.pmid %}
-                      data-pmid="{{ entry.pmid }}"
-                    {%- endif -%}
+                    data-doi="{{ entry.doi }}"
+                    {%- else %}
+                    data-pmid="{{ entry.pmid }}"
+                    {%- endif %}
                     data-style="small_rectangle"
                     data-legend="hover-right"
+                    style="margin-bottom: 3px;"
               ></span>
             {%- endif -%}
 
