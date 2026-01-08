@@ -14,7 +14,12 @@ $(document).ready(function() {
         Toc.init($myNav);
         $("body").scrollspy({
             target: navSelector,
-            offset: 100,
+            offset: 80,
+        });
+
+        // Refresh scrollspy on scroll to handle short sections
+        $(window).on('scroll', function() {
+            $("body").scrollspy('refresh');
         });
     }
 });
