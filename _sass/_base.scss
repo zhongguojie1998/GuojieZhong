@@ -503,6 +503,11 @@ footer.sticky-bottom {
         width: 100%;
         min-width: 80px;
         max-width: 200px;
+        display: flex;
+        align-items: center;
+        img {
+          object-fit: contain;
+        }
       }
       .abbr {
         height: 2rem;
