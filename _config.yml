@@ -38,7 +38,7 @@ repo_theme_dark: dark           # https://github.com/anuraghazra/github-readme-s
 
 # external services
 external_services:
-  github_readme_stats_url: https://github-readme-stats.vercel.app
+  github_readme_stats_url: https://github-readme-stats-blush-psi-71.vercel.app
 
 # -----------------------------------------------------------------------------
 # RSS Feed
