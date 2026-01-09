@@ -1,34 +1,42 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Shen":
+  - firstname: ["Yufeng", "Y.", "Y. F."]
+    url: https://scholar.google.com/citations?user=e3UEBXAAAAAJ
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Chung":
+  - firstname: ["Wendy", "W.", "W. K.", "Wendy K."]
+    url: https://scholar.google.com/citations?user=q5nO8HwAAAAJ
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Zhang":
+  - firstname: ["Zemin", "Z."]
+    url: https://scholar.google.com/citations?user=XRQ0zZ0AAAAJ&hl=en
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+  - firstname: ["Qiming", "Q."]
+    url: https://scholar.google.com/citations?user=W2XpS9kAAAAJ&hl=en
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Hu":
+  - firstname: ["Mengying", "M."]
+    url: https://scholar.google.com/citations?user=GEawKcUAAAAJ&hl=en
 
-"Przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"Ren":
+  - firstname: ["Xianwen", "X."]
+    url: https://scholar.google.com/citations?user=le3TZVUAAAAJ&hl=en
 
-"Schrödinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"Zorn":
+  - firstname: ["Aaron M", "Aaron M.", "A. M.", "Aaron"]
+    url: https://scholar.google.com/citations?user=LT35pKEAAAAJ&hl=en
 
-"Lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"Edwards":
+  - firstname: ["Nicole", "N."]
+    url: https://scholar.google.com/citations?user=Xph1ZU4AAAAJ&hl=en
 
-"Planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"Zhao":
+  - firstname: ["Yige", "Y."]
+    url: https://scholar.google.com/citations?user=5MLSNBYAAAAJ&hl=en
+
+"Su":
+  - firstname: ["Jiayu", "J."]
+    url: https://scholar.google.com/citations?user=tSPORNgAAAAJ&hl=en
+
+"Wang":
+  - firstname: ["Ying", "Y."]
+    url: https://scholar.google.com/citations?user=icvgymIAAAAJ&hl=en
