@@ -1,20 +1,20 @@
 metadata:
-  last_updated: '2026-01-08'
+  last_updated: '2026-02-13'
 papers:
   BarC1U8AAAAJ:2osOgNQ5qMEC:
     citations: 0
     title: Towards better understanding of developmental disorders from integration of spatial single-cell transcriptomics and epigenomics
     year: '2021'
   BarC1U8AAAAJ:3fE2CSJIrl8C:
-    citations: 6
+    citations: 8
     title: PreMode predicts mode-of-action of missense variants by deep graph representation learning of protein sequence and structural context
     year: '2025'
   BarC1U8AAAAJ:8k81kl-MbHgC:
-    citations: 6
+    citations: 7
     title: 'Smoother: a unified and modular framework for incorporating structural dependency in spatial omics data'
     year: '2023'
   BarC1U8AAAAJ:9yKSN-GCB0IC:
-    citations: 140
+    citations: 142
     title: mRNA delivery of a bispecific single‐domain antibody to polarize tumor‐associated macrophages and synergize immunotherapy against liver malignancies
     year: '2021'
   BarC1U8AAAAJ:Se3iqnhoufwC:
@@ -42,7 +42,7 @@ papers:
     title: Representation of missense variants for predicting modes of action
     year: '2022'
   BarC1U8AAAAJ:d1gkVwhDpl0C:
-    citations: 153
+    citations: 155
     title: Reconstruction of cell spatial organization from single-cell RNA sequencing data based on ligand-receptor mediated self-assembly
     year: '2020'
   BarC1U8AAAAJ:eQOLeE2rZwMC:
@@ -54,9 +54,17 @@ papers:
     title: Computational approaches to understand mechanisms of human genetic disorders
     year: '2024'
   BarC1U8AAAAJ:u5HHmVD_uO8C:
-    citations: 1448
+    citations: 1473
     title: Landscape and dynamics of single immune cells in hepatocellular carcinoma
     year: '2019'
+  BarC1U8AAAAJ:4OULZ7Gr8RgC:
+    citations: 0
+    title: Single-cell Multiome Analysis of Chromatin State and Transcriptome in the Human Basal Ganglia
+    year: '2026'
+  BarC1U8AAAAJ:fPk4N6BV_jEC:
+    citations: 0
+    title: Single-Cell Atlas of Transcription and Chromatin States Reveals Regulatory Programs in the Human Brain
+    year: '2026'
   BarC1U8AAAAJ:zYLM7Y9cAGgC:
     citations: 17
     title: Identification and validation of candidate risk genes in endocytic vesicular trafficking associated with esophageal atresia and tracheoesophageal fistulas
