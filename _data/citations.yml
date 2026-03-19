@@ -10,11 +10,11 @@ papers:
     title: PreMode predicts mode-of-action of missense variants by deep graph representation learning of protein sequence and structural context
     year: '2025'
   BarC1U8AAAAJ:8k81kl-MbHgC:
-    citations: 7
+    citations: 8
     title: 'Smoother: a unified and modular framework for incorporating structural dependency in spatial omics data'
     year: '2023'
   BarC1U8AAAAJ:9yKSN-GCB0IC:
-    citations: 142
+    citations: 146
     title: mRNA delivery of a bispecific single‐domain antibody to polarize tumor‐associated macrophages and synergize immunotherapy against liver malignancies
     year: '2021'
   BarC1U8AAAAJ:Se3iqnhoufwC:
@@ -30,11 +30,11 @@ papers:
     title: Method for predicting cell spatial relation based on single-cell transcriptome sequencing data
     year: '2023'
   BarC1U8AAAAJ:W7OEmFMy1HYC:
-    citations: 3
+    citations: 2
     title: Statistical models of the genetic etiology of congenital heart disease
     year: '2022'
   BarC1U8AAAAJ:ZHo1McVdvXMC:
-    citations: 5
+    citations: 7
     title: A probabilistic graphical model for estimating selection coefficients of nonsynonymous variants from human population sequence data
     year: '2025'
   BarC1U8AAAAJ:_FxGoFyzp5QC:
@@ -42,7 +42,7 @@ papers:
     title: Representation of missense variants for predicting modes of action
     year: '2022'
   BarC1U8AAAAJ:d1gkVwhDpl0C:
-    citations: 155
+    citations: 159
     title: Reconstruction of cell spatial organization from single-cell RNA sequencing data based on ligand-receptor mediated self-assembly
     year: '2020'
   BarC1U8AAAAJ:eQOLeE2rZwMC:
@@ -54,15 +54,15 @@ papers:
     title: Computational approaches to understand mechanisms of human genetic disorders
     year: '2024'
   BarC1U8AAAAJ:u5HHmVD_uO8C:
-    citations: 1473
+    citations: 1506
     title: Landscape and dynamics of single immune cells in hepatocellular carcinoma
     year: '2019'
   BarC1U8AAAAJ:4OULZ7Gr8RgC:
-    citations: 0
+    citations: 1
     title: Single-cell Multiome Analysis of Chromatin State and Transcriptome in the Human Basal Ganglia
     year: '2026'
   BarC1U8AAAAJ:fPk4N6BV_jEC:
-    citations: 0
+    citations: 1
     title: Single-Cell Atlas of Transcription and Chromatin States Reveals Regulatory Programs in the Human Brain
     year: '2026'
   BarC1U8AAAAJ:zYLM7Y9cAGgC:
