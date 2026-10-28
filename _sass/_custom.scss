@@ -1,0 +1,72 @@
+/*******************************************************************************
+ * Site-specific style overrides, loaded last from assets/css/main.scss.
+ ******************************************************************************/
+
+@use "variables" as v;
+
+// Light theme: ivory background, blue accent (dark theme keeps upstream defaults)
+:root {
+  --global-bg-color: #fffff0;
+  --global-theme-color: #{v.$blue-color};
+  --global-hover-color: #{v.$blue-color};
+  --global-code-bg-color: #{rgba(v.$blue-color, 0.05)};
+}
+
+// Hide the address under the profile picture on small screens
+@media (max-width: 767.98px) {
+  .profile .more-info {
+    display: none;
+  }
+}
+
+// Project cards: uniform thumbnail height
+.projects .card img {
+  height: 250px;
+  object-fit: contain;
+  object-position: center;
+}
+
+.publications ol.bibliography li {
+  .preview {
+    display: flex;
+    align-items: center;
+    object-fit: contain;
+  }
+
+  .abbr {
+    text-align: center;
+  }
+
+  .title {
+    max-width: 550px;
+    font-size: 1.125rem;
+  }
+
+  .periodical {
+    font-size: 0.875rem;
+  }
+
+  .author {
+    font-size: 0.875rem;
+
+    a {
+      color: var(--global-text-color);
+      border-bottom: 1px dashed var(--global-text-color);
+
+      &:hover {
+        color: var(--global-text-color);
+      }
+    }
+
+    > em {
+      border-bottom: none;
+      font-weight: bolder;
+      color: var(--global-theme-color);
+    }
+  }
+
+  .badges a {
+    vertical-align: middle;
+    padding-right: 0.5rem;
+  }
+}

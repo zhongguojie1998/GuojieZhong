@@ -1,0 +1,51 @@
+name: Update Google Scholar Citations (SerpAPI)
+
+on:
+  schedule:
+    - cron: "0 6 * * 1" # Monday 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: update-citations-serpapi
+  cancel-in-progress: false
+
+jobs:
+  update-citations:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install --disable-pip-version-check pyyaml
+
+      - name: Update citations
+        env:
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+        run: timeout 120 python bin/update_scholar_citations_serpapi.py --backend serpapi
+
+      - name: Commit, push and trigger deploy
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git add _data/citations.yml
+          if git diff --staged --quiet; then
+            echo "No citation changes." >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update Google Scholar citations"
+          git push
+          # Pushes made with GITHUB_TOKEN do not trigger push workflows; workflow_dispatch is exempt.
+          gh workflow run deploy.yml --ref "${GITHUB_REF_NAME}"
+          echo "Citations updated; deploy triggered." >> "$GITHUB_STEP_SUMMARY"
