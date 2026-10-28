@@ -24,7 +24,7 @@ cv:
 
     Education:
       - institution: Columbia University
-        location: New York, NY, United States
+        location: New York, NY
         area: Systems Biology, Integrated Program in Cellular, Molecular, and Biomedical Studies
         studyType: PhD
         start_date: 2019
@@ -40,28 +40,28 @@ cv:
     Experience:
       - company: New York Genome Center
         position: AI Genomics Fellow
-        location: New York, NY, United States
+        location: New York, NY
         start_date: 2026-07
         end_date: present
         summary: Develop deep learning methods (DNA language models) to predicting non-coding variant effect, prioritize causal variants for diagnosis and therapeutic target discovery.
 
       - company: Ren Lab, New York Genome Center
         position: Postdoctoral Research Associate
-        location: New York, NY, United States
+        location: New York, NY
         start_date: 2025-03
         end_date: 2026-06
         summary: Develop deep learning methods (DNA language models) to predicting non-coding variant effect, prioritize causal variants for diagnosis and therapeutic target discovery.
 
       - company: Insitro, Inc.
         position: Data Science & Machine Learning Intern
-        location: South San Francisco, CA, United States
+        location: South SF, CA
         start_date: 2024-06
         end_date: 2024-09
         summary: Evaluate and improve the in-house drug target discovery pipeline by integration of GWAS, RNA-seq and PharmaProjects data.
 
       - company: Shen Lab, Department of Systems Biology, Columbia University
         position: Graduate Research Assistant
-        location: New York, NY, United States
+        location: New York, NY
         start_date: 2020-09
         end_date: 2025-02
         highlights:
