@@ -12,6 +12,15 @@
   --global-code-bg-color: #{rgba(v.$blue-color, 0.05)};
 }
 
+// One address line per <p> under the profile picture
+.profile .more-info {
+  font-size: 0.875rem;
+
+  p {
+    display: block;
+  }
+}
+
 // Hide the address under the profile picture on small screens
 @media (max-width: 767.98px) {
   .profile .more-info {
