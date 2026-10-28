@@ -1,0 +1,196 @@
+<!DOCTYPE html> <html lang="en"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta name="google-site-verification" content="31KHVFcJo6S97n9hm_G4Mjwc5sge0dJuLl3oi_NdwNk"> <meta name="msvalidate.01" content="1bf76500e4daabd81f864cc8501f1b73"> <meta http-equiv="Permissions-Policy" content="interest-cohort=()"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> EpiBRAIN | Guojie Zhong </title> <meta name="author" content="Guojie Zhong"> <meta name="description" content="A sequence-to-function deep learning model predicting cell-type-specific chromatin states, gene expression, and variant effects in the human brain."> <meta name="keywords" content="Computational Biology, Deep Learning, Genetics"> <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' data: https:; media-src 'self' https:; frame-src 'self' https:; connect-src 'self' https:;"> <style>
+  :root {
+    --max-content-width: 1000px;
+  }
+</style> <link rel="stylesheet" href="/GuojieZhong/assets/css/tailwind.css?v=50c64c15cbb9fd1ce6056fdb8bcb4b62"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css" integrity="sha256-MVopmdyC2tYTiJ8wlktf0uh0v4NgT+vNdyVFepi7Q0c=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.5/css/academicons.min.css" integrity="sha256-SzrCOBJbGVFMahewkgjwnApaV2+av1DwMAA+/QGLyZw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/scholar-icons@1.0.3/css/scholar-icons.css" integrity="sha256-VY3hHVj/hNX3fYG6wtbA6TcKJQl7+FthzGSyIB64klY=" crossorigin="anonymous"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/GuojieZhong/assets/css/jekyll-pygments-themes-github.css?v=591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;"> <link rel="stylesheet" href="/GuojieZhong/assets/css/main.css?v=3116ba77db9ee1581d05bb3e86fbf7f1"> <link rel="canonical" href="https://zhongguojie1998.github.io/GuojieZhong/projects/5_EpiBRAIN/"> <script src="/GuojieZhong/assets/js/theme.js?v=5286c3e4c334d0ecb8fc0c40ff4fa7ec"></script> <link defer rel="stylesheet" href="/GuojieZhong/assets/css/jekyll-pygments-themes-native.css?v=5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
+    initTheme();
+  </script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/GuojieZhong/"> <span class="font-weight-bold">Guojie</span> Zhong </a> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/GuojieZhong/">home </a> </li> <li class="nav-item "> <a class="nav-link" href="/GuojieZhong/publications/">publications </a> </li> <li class="nav-item active"> <a class="nav-link" href="/GuojieZhong/projects/">projects <span class="sr-only">(current)</span> </a> </li> <li class="nav-item "> <a class="nav-link" href="/GuojieZhong/repositories/">repositories </a> </li> <li class="nav-item "> <a class="nav-link" href="/GuojieZhong/cv/">cv </a> </li> <li class="nav-item "> <a class="nav-link" href="/GuojieZhong/contact/">contact </a> </li> <li class="nav-item"> <button id="search-toggle" type="button" title="Search" aria-label="Open search"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">EpiBRAIN</h1> <p class="post-description">A sequence-to-function deep learning model predicting cell-type-specific chromatin states, gene expression, and variant effects in the human brain.</p> </header> <article> <p>This is my first postdoc project in <a href="https://www.nygenome.org/lab/bing-ren/" rel="external nofollow noopener" target="_blank">Dr. Bing Ren’s lab</a> at the New York Genome Center, developed as part of the BICAN human basal ganglia single-cell multiome atlas.</p> <p>Deep-learning sequence-to-function models such as Borzoi and AlphaGenome predict epigenomic states and gene expression from DNA sequence, but they are trained mostly on bulk tissue data and lack cell-type resolution. Using our Droplet Paired-Tag atlas (joint transcriptome and H3K27ac, H3K27me3 or H3K9me3 profiles) together with single-nucleus chromatin accessibility data, we developed EpiBRAIN (Epigenomics-based Brain Regulation Attention Inference Network). Starting from a 524 kb hg38 sequence, EpiBRAIN predicts cell-type-specific ATAC-seq, H3K27ac, H3K27me3, H3K9me3, and strand-specific RNA-seq tracks at 32 bp resolution for 37 brain cell types from the basal ganglia, cerebral cortex, cerebellum, and pons. Instead of one output track per cell type and modality, EpiBRAIN projects shared sequence embeddings into a compact cell-type-specific chromatin embedding, which shared chromatin profile heads then decode into each modality. This lets the model learn relationships between tracks within each cell type, and it outperforms the default Borzoi head on these data.</p> <p>EpiBRAIN reaches average Pearson correlations above 0.80 for chromatin accessibility and gene expression and around 0.70 for histone modifications on held-out regions. Removing the histone modification data lowers gene expression accuracy in every cell type. For a Parkinson’s disease risk variant, rs6581593, EpiBRAIN predicts that the risk allele disrupts a ZEB2 repressor motif in a microglia-specific enhancer, which leads to microglial upregulation of LRRK2. This agrees with published CRISPRi and iPSC-derived microglia experiments. EpiBRAIN also outperforms Borzoi and AlphaGenome at separating fine-mapped causal from non-causal basal ganglia eQTLs, especially distal ones. In schizophrenia, the top 5% of variants ranked by predicted H3K27ac effects in medium spiny neurons explain about 25% of disease heritability.</p> <div class="row justify-content-sm-center"> <div class="col-sm-8 mt-3 mt-md-0"> <figure> <picture> <source class="responsive-img-srcset" srcset="/GuojieZhong/assets/img/EpiBRAIN-480.webp 480w,/GuojieZhong/assets/img/EpiBRAIN-800.webp 800w,/GuojieZhong/assets/img/EpiBRAIN-1400.webp 1400w," type="image/webp" sizes="95vw"></source> <img src="/GuojieZhong/assets/img/EpiBRAIN.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="EpiBRAIN model" loading="lazy" onerror="this.onerror=null; document.querySelectorAll('.responsive-img-srcset').forEach(function (n) { n.remove(); });"> </picture> </figure> </div> </div> <div class="caption"> EpiBRAIN architecture. A 524 kb reference DNA sequence passes through convolutional blocks (7x) and transformer blocks (8x) at 128 bp resolution, then convolutional up-sampling (2x) to 32 bp resolution. Cell type embedding heads project the shared sequence embeddings into cell-type-specific chromatin embeddings, and shared chromatin profile heads decode them into ATAC, H3K27ac, H3K27me3, H3K9me3, and RNA coverage tracks for each cell type. Blue shows data and outputs; green shows learned parameters. </div> <p>For details, please check our <a href="https://doi.org/10.64898/2026.02.03.703645" rel="external nofollow noopener" target="_blank">manuscript</a> and <a href="https://github.com/zhongguojie1998/EpiBRAIN" rel="external nofollow noopener" target="_blank">GitHub repository</a>.</p> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Guojie Zhong. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/bogoli/-folio" rel="external nofollow noopener" target="_blank">-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Last updated: October 28, 2026. </div> </footer> <script>
+  window.alFolio = {
+    compatBootstrap: false
+  };
+</script> <script src="/GuojieZhong/assets/js/nav-toggle.js?v=141bd79a73ebc0f0b6ea58e440ae79fc"></script> <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script> <script defer src="/GuojieZhong/assets/js/masonry.js?v=e49affc7bd2646f6acdad1dbe02c2359" type="text/javascript"></script> <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous"></script> <script src="/GuojieZhong/assets/al_math/js/mathjax-setup.js"></script> <script src="/GuojieZhong/assets/js/tooltips-setup.js?v=fe487e99db6c43751e6e7bdb2d6a0611"></script> <script src="/GuojieZhong/assets/js/no_defer.js?v=53b1b1a645525975c963ce8bf8bfefcf"></script> <script defer src="/GuojieZhong/assets/js/common.js?v=87baac90f765f2f3362dcf6aaf312a8a"></script> <script defer src="/GuojieZhong/assets/js/copy_code.js?v=c8a01c11a92744d44b093fc3bda915df" type="text/javascript"></script> <script defer src="/GuojieZhong/assets/js/jupyter_new_tab.js?v=896d254890d9b47f0281f63bfccf0dee"></script> <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script> <script async src="https://badge.dimensions.ai/badge.js"></script> <script async src="https://www.googletagmanager.com/gtag/js?id=G-43J64SYBS0"></script> <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    window.dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+  gtag("config", "G-43J64SYBS0");
+</script> <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script> <script defer src="/GuojieZhong/assets/al_img_tools/js/zoom.js"></script> <script defer src="/GuojieZhong/assets/js/progress-bar.js?v=499464c5c63ced6cf7ad62509f1e2610" type="text/javascript"></script> <script src="https://cdn.jsdelivr.net/npm/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js" integrity="sha256-uMJJ3EoTyfRBoTbR+lrfu1uRQ87RZG8AR3cVNuQVeFg=" crossorigin="anonymous"></script> <script>
+    addBackToTop();
+  </script> <script type="module" src="/GuojieZhong/assets/al_search/js/search/ninja-keys.min.js"></script> <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys> <script src="/GuojieZhong/assets/al_search/js/search-setup.js"></script> <script>
+// get the ninja-keys element
+const ninja = document.querySelector('ninja-keys');
+
+// add the home and posts menu items
+ninja.data = [{
+    id: "nav-home",
+    title: "home",
+    section: "Navigation",
+    handler: () => {
+      window.location.href = "/GuojieZhong/";
+    },
+  },{id: "nav-publications",
+          title: "publications",
+          description: "* denotes equal contribution.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/GuojieZhong/publications/";
+          },
+        },{id: "nav-projects",
+          title: "projects",
+          description: "A growing collection of my projects!",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/GuojieZhong/projects/";
+          },
+        },{id: "nav-repositories",
+          title: "repositories",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/GuojieZhong/repositories/";
+          },
+        },{id: "nav-cv",
+          title: "cv",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/GuojieZhong/cv/";
+          },
+        },{id: "nav-contact",
+          title: "contact",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/GuojieZhong/contact/";
+          },
+        },{id: "projects-csomap",
+          title: 'CSOmap',
+          description: "My first project in computational Biology",
+          section: "Projects",handler: () => {
+              window.location.href = "/GuojieZhong/projects/1_CSOmap/";
+            },},{id: "projects-vbass",
+          title: 'VBASS',
+          description: "A Bayesian Mixture model with learnable prior to integrate single cell gene expression data in rare variants association analysis.",
+          section: "Projects",handler: () => {
+              window.location.href = "/GuojieZhong/projects/2_VBASS/";
+            },},{id: "projects-rescve",
+          title: 'RESCVE',
+          description: "A deep learning model to represent the modes of action of missense variants.",
+          section: "Projects",handler: () => {
+              window.location.href = "/GuojieZhong/projects/3_RESCVE/";
+            },},{id: "projects-premode",
+          title: 'PreMode',
+          description: "Predicting mode-of-action of missense variants by deep graph representation learning of protein sequence and structural context",
+          section: "Projects",handler: () => {
+              window.location.href = "/GuojieZhong/projects/4_PreMode/";
+            },},{id: "projects-epibrain",
+          title: 'EpiBRAIN',
+          description: "A sequence-to-function deep learning model predicting cell-type-specific chromatin states, gene expression, and variant effects in the human brain.",
+          section: "Projects",handler: () => {
+              window.location.href = "/GuojieZhong/projects/5_EpiBRAIN/";
+            },},{id: "projects-one-of-us",
+          title: 'One of Us',
+          description: "My first finguerstyle guitar video",
+          section: "Projects",handler: () => {
+              window.location.href = "/GuojieZhong/projects/fun_1_one_of_us/";
+            },},{id: "projects-canon",
+          title: 'Canon',
+          description: "In memory of my graduation at Peking University",
+          section: "Projects",handler: () => {
+              window.location.href = "/GuojieZhong/projects/fun_2_canon/";
+            },},{id: "projects-wings-hoping-for-the-future",
+          title: 'Wings~Hoping for the Future',
+          description: "Video for my 22nd birthday!",
+          section: "Projects",handler: () => {
+              window.location.href = "/GuojieZhong/projects/fun_3_wings/";
+            },},{id: "projects-haru-spring",
+          title: 'Haru (Spring)',
+          description: "In memory of the 2022 spring in NYC",
+          section: "Projects",handler: () => {
+              window.location.href = "/GuojieZhong/projects/fun_4_haru/";
+            },},{
+        id: 'social-email',
+        title: 'email',
+        section: 'Socials',
+        handler: () => {
+          window.open("mailto:%67%75%6F%6A%69%65%7A%68%6F%6E%67@%6E%79%67%65%6E%6F%6D%65.%6F%72%67", "_blank");
+        },
+      },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0000-0001-5664-9069", "_blank");
+        },
+      },{
+        id: 'social-scholar',
+        title: 'Google Scholar',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://scholar.google.com/citations?user=BarC1U8AAAAJ", "_blank");
+        },
+      },{
+        id: 'social-researchgate',
+        title: 'ResearchGate',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.researchgate.net/profile/Guojie-Zhong/", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/zhongguojie1998", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/guojie-zhong-b377a5179", "_blank");
+        },
+      },{
+        id: 'social-x',
+        title: 'X',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://twitter.com/Chinese__knot", "_blank");
+        },
+      },{
+        id: 'social-work',
+        title: 'Work',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://systemsbiology.columbia.edu/people/guojie-zhong", "_blank");
+        },
+      },{
+      id: 'light-theme',
+      title: 'Change theme to light',
+      description: 'Change the theme of the site to Light',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("light");
+      },
+    },
+    {
+      id: 'dark-theme',
+      title: 'Change theme to dark',
+      description: 'Change the theme of the site to Dark',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("dark");
+      },
+    },
+    {
+      id: 'system-theme',
+      title: 'Use system default theme',
+      description: 'Change the theme of the site to System Default',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("system");
+      },
+    },];
+
+</script> <script src="/GuojieZhong/assets/al_search/js/shortcut-key.js"></script> </body> </html>
