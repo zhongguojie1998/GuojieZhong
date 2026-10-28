@@ -8,7 +8,8 @@ layout: default
         <span style="font-weight: 500">{{ site.first_name }}</span> {{ site.middle_name }}
         {{ site.last_name }}
         {% if site.chinese_first_name and site.chinese_last_name %}
-          &nbsp;<br class="d-md-none">({{ site.chinese_last_name }}
+          &nbsp;<br class="d-md-none">
+          ({{ site.chinese_last_name }}
           <span style="font-weight: 500">{{ site.chinese_first_name }}</span>)
         {% endif %}
       {% else %}

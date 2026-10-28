@@ -2,7 +2,7 @@
 layout: about
 title: home
 permalink: /
-subtitle: PhD in Systems Biology, Postdoctoral Research Associate at <a href='https://www.nygenome.org'>New York Genome Center</a>. 
+subtitle: PhD in Systems Biology, Postdoctoral Research Associate at <a href='https://www.nygenome.org'>New York Genome Center</a>.
 
 profile:
   align: right
@@ -20,14 +20,15 @@ announcements:
 latest_posts:
   enabled: false
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 ---
 
-I am currently a Postdoctoral Research Associate in <a href='https://renlab.sdsc.edu/renlab_website/'>Dr. Bing Ren's lab</a> at the <a href='https://www.nygenome.org'>New York Genome Center</a>. 
+I am currently a Postdoctoral Research Associate in <a href='https://renlab.sdsc.edu/renlab_website/'>Dr. Bing Ren's lab</a> at the <a href='https://www.nygenome.org'>New York Genome Center</a>.
 
-I build biologically-inspired machine learning models to bridge the gap between complex diseases and effective treatments, deciphering disease mechanisms from high-throughput genomics data to identify new therapeutic targets. 
+I build biologically-inspired machine learning models to bridge the gap between complex diseases and effective treatments, deciphering disease mechanisms from high-throughput genomics data to identify new therapeutic targets.
 
 My current research interests include:
+
 1.      Building DNA sequence-to-function foundation models that predict cell-type-specific transcriptional regulatory grammar in the human brain.
 2.      Neuropsychological disease mechanism discovery utilizing a combination of high-throughput screening techniques and deep learning.
 3.      Generative deep learning models for synthetic regulatory element design.
@@ -35,6 +36,7 @@ My current research interests include:
 Previously, I had the honor of completing my PhD under the guidance of <a href='http://www.columbia.edu/~ys2411/'>Dr. Yufeng Shen</a> at the <a href='https://systemsbiology.columbia.edu'>Department of Systems Biology</a>, Columbia University.
 
 My past work has spanned several areas including:
+
 1.      Single-cell spatial transcriptomics and cancer immunology: <a href='{{ '/projects/1_CSOmap/' | relative_url }}'>CSOmap</a>, <a href='https://www.cell.com/cell/fulltext/S0092-8674(19)31119-5'>Hepatocellular Carcinoma</a>
 2.      Statistical genetics and developmental disorders: <a href='{{ '/projects/2_VBASS/' | relative_url }}'>VBASS</a>, <a href='https://www.cell.com/hgg-advances/fulltext/S2666-2477(22)00023-9?uuid=uuid%3Aa4c91d44-3860-43d2-a9da-94f084045bbd'>EA/TEF</a>
 3.      Missense variant effect predictions: <a href='{{ '/projects/4_PreMode/' | relative_url }}'>PreMode</a>, <a href='{{ '/projects/3_RESCVE/' | relative_url }}'>RESCVE</a>, <a href='https://www.nature.com/articles/s41467-025-59937-2'>MisFit</a>

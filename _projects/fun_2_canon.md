@@ -18,6 +18,4 @@ Arranged by Kotaro Oshio \
 Tuning: DADGBD \
 Pick up: SKYSONIC R2 \
 Video: iPad Pro \
-Covered by: ChineseKnot  
-
-
+Covered by: ChineseKnot

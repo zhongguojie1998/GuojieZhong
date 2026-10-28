@@ -1,7 +1,7 @@
 ---
 layout: page
 title: RESCVE
-description: A deep learning model to represent the modes of action of missense variants. 
+description: A deep learning model to represent the modes of action of missense variants.
 img: assets/img/RESCVE.jpg
 importance: 2
 category: Research

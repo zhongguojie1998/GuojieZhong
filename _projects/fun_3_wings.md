@@ -19,6 +19,4 @@ Pick up: iPhone 11 and MacBook Pro 2019 \
 Video: iPone 11 \
 Guitar: Yamaha FG800 \
 Videoed by: Matty and Ying \
-Covered by: ChineseKnot 
-
-
+Covered by: ChineseKnot
