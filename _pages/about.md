@@ -2,7 +2,7 @@
 layout: about
 title: home
 permalink: /
-subtitle: PhD in Systems Biology, Postdoctoral Research Associate at <a href='https://www.nygenome.org'>New York Genome Center</a>.
+subtitle: PhD in Systems Biology, AI Genomics Fellow at <a href='https://www.nygenome.org'>New York Genome Center</a>.
 
 profile:
   align: right
