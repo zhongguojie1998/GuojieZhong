@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://zhongguojie1998.github.io/GuojieZhongDev/sitemap.xml
+Sitemap: https://zhongguojie1998.github.io/GuojieZhong/sitemap.xml
