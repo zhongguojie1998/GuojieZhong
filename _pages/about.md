@@ -23,9 +23,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am currently a Postdoctoral Research Associate in <a href='https://renlab.sdsc.edu/renlab_website/'>Dr. Bing Ren's lab</a> at the <a href='https://www.nygenome.org'>New York Genome Center</a>.
+I am currently an AI Genomics Fellow in <a href='https://renlab.sdsc.edu/renlab_website/'>Dr. Bing Ren's lab</a> at the <a href='https://www.nygenome.org'>New York Genome Center</a>.
 
-I build biologically-inspired machine learning models to bridge the gap between complex diseases and effective treatments, deciphering disease mechanisms from high-throughput genomics data to identify new therapeutic targets.
+My research centers on one question: how does genetic variation cause disease? I build biologically inspired AI and statistical methods to address this question. My work can bridge the gap between complex diseases and effective treatments by identifying new therapeutic targets.
 
 My current research interests include:
 
