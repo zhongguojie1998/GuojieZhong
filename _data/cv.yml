@@ -1,7 +1,6 @@
 # CV in RenderCV format (https://docs.rendercv.com/user_guide/yaml_input_structure/cv/)
 cv:
   name: Guojie Zhong
-  label: AI Genomics Fellow, New York Genome Center
   email: guojiezhong@nygenome.org
   location: New York, NY
 
@@ -109,12 +108,20 @@ cv:
 
     Honors and Awards:
       - title: Chinese Government Award for Outstanding Self-Financed Students Abroad
+        authors:
+          - Guojie Zhong
         date: 2024
       - title: Dean's fellowship, Graduate School of Arts and Science, Columbia University
+        authors:
+          - Guojie Zhong
         date: 2019
       - title: 2014-2015 academic year Outstanding Freshman Scholarship, Peking University
+        authors:
+          - Guojie Zhong
         date: 2015
       - title: The 28th National Olympiad in Chemistry in Provinces, 1st prize, Zhejiang Province, China
+        authors:
+          - Guojie Zhong
         date: 2014
 
     Mentorship:
