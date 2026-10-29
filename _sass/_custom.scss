@@ -79,3 +79,17 @@
     padding-right: 0.5rem;
   }
 }
+
+// CV timeline (al_folio_cv): drop stray list bullets and let long locations wrap.
+// `.cv` prefix outranks the gem's `p.location`, since al-folio-cv.css loads after main.css.
+.cv {
+  ul.list-group {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  p.location {
+    white-space: normal;
+    overflow-wrap: break-word;
+  }
+}
