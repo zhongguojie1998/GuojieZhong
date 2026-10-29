@@ -4,6 +4,7 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
+  - zhongguojie1998/EpiBRAIN
   - ShenLab/PreMode
   - ShenLab/rescve
   - ShenLab/VBASS
@@ -11,3 +12,5 @@ github_repos:
   - ShenLab/pathways
   - explorerwjy/ML_genomics
   - zhongguojie1998/CSOmap
+  - zhongguojie1998/week-lit-review
+  - zhongguojie1998/cc-account-helper
